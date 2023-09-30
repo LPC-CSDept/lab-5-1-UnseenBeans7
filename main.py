@@ -3,7 +3,6 @@ def getinput():
     # Make your Code
     # ******************************
 
-
 def getsum(v1, v2):
     # ******************************
     # Make your Code
@@ -17,10 +16,13 @@ def printval(v1, v2, total):
 
 
 def main():
-    userval1 = getinput()
-    userval2 = getinput()
-    total = getsum(userval1, userval2)
-    printval(userval1, userval2, total)
+    # ******************************
+    # Make your Code
+    # ******************************
+    uval1 = getinput()
+    uval2 = getinput()
+    total = getsum(uval1, uval2)
+    printval(uval1, uval2, total)
 
 
 if __name__ == '__main__':
